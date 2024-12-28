@@ -7,23 +7,21 @@ import ServiceCards from "../../components/serviceCard/ServiceCards";
 import Convinced from "../../components/convinced/Convinced";
 import Letter from "../../components/newsletter/Letter";
 import Footer from "../../components/footer/Footer";
- 
+
 export default function Home() {
-
-  // border-2 border-black 
-
+  // border-2 border-black
 
   return (
     <div className="container min-w-full  font-sans xl:text-lg">
       <Navbar />
-      <Header/>
-      <Manage/>
-      <SpecialMedia/>
-      <NotSure/>
-      <ServiceCards/>
-      <Convinced/>
-      <Letter/>
-      <Footer/>
+      <Header />
+      <Manage />
+      <SpecialMedia />
+      <NotSure />
+      <ServiceCards />
+      <Convinced />
+      <Letter />
+      <Footer />
     </div>
   );
 }

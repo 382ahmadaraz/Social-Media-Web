@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
-
     // border-2 border-black
 
     <div className=" ">
       <Navbar />
-      <div className="  mt-11">
+      <div className="mt-11">
         <div className="lg:h-[120vh] flex justify-center items-center">
           <div className="upper-box lg:w-[45%]  lg:p-16 bg-white ">
             <div class="lg:w-[100%] sm:w-[70%] m-auto shadow-xl">
@@ -52,20 +51,20 @@ export default function Login() {
                   {/* <p class="text-red-500 text-xs italic">Please choose a password.</p> */}
                 </div>
                 <Link to={"/login"}>
-                <div className="w-[100%] p-2 bg-gradient-to-b from-Purple to-Pink text-white text-center my-4 rounded-lg">
-                   <button title="Sign In">Sign Up</button>
-                </div></Link>
+                  <div className="w-[100%] p-2 bg-gradient-to-b from-Purple to-Pink text-white text-center my-4 rounded-lg">
+                    <button title="Sign In">Sign Up</button>
+                  </div>
+                </Link>
                 <div className="flex items-center  w-[80%] m-auto">
-                  <hr className="w-[40%] border"/>
-                  <p className="mx-3">OR</p>  
-                  <hr className="w-[40%] border"/>
+                  <hr className="w-[40%] border" />
+                  <p className="mx-3">OR</p>
+                  <hr className="w-[40%] border" />
                 </div>
                 <div className="text-pink-500 flex items-center justify-center text-md font-semibold ">
-                <p className="text-gray-600 mr-3">Already a Member  </p><Link to={"/login"}>Sign In</Link>
-
+                  <p className="text-gray-600 mr-3">Already a Member </p>
+                  <Link to={"/login"}>Sign In</Link>
                 </div>
               </form>
-               
             </div>
           </div>
           <hr className="border-4 border-pink-600 absolute  w-[100%] z-[-1] rotate-12" />

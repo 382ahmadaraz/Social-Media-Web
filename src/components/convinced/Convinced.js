@@ -11,7 +11,7 @@ import Button from '../button/Button'
 export default function Convinced() {
   return (
     <div className="p-4 px-7 my-16 lg:h-[100vh] lg:w-[100%] ">
-      <div className="lg:w-[80%] lg:m-auto  ">
+      <div className="lg:w-[80%] lg:m-auto">
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-semibold  ">
           HUNDRED OF INDEPENDENTS ALREADY CONVINCED
         </h1>
@@ -21,9 +21,9 @@ export default function Convinced() {
       </div>
 
       <div className="flex justify-center items-center lg:h-[80%] lg:[&>*]:mx-5">
-        <div className="hidden lg:block  lg:w-[33%] lg:h-[85%]  lg:relative">
+        <div className="hidden lg:block lg:w-[33%] lg:h-[85%] lg:relative">
           <img src={i1} alt="identity-image" className="lg:rounded-bl-full lg:rounded-tl-full lg:rounded-br-full lg:w-[88%] lg:h-[88%] lg:absolute bottom-2 left-3 lg:z-10 lg:shadow-b lg:shadow-2xl"/>
-          <img src={i2} alt="circle" className="lg:absolute bottom-0  "/>
+          <img src={i2} alt="circle" className="lg:absolute bottom-0"/>
           <img src={i3} alt="square-dots" className="lg:absolute top-0 right-0 lg:h-[35%]"/>
 
 

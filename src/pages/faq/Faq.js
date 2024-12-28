@@ -11,7 +11,7 @@ export default function Faq() {
       <div className="price-head flex justify-center  m-auto mt-14">
         <h1 className="flex flex-col justify-center items-start text-lg md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold text-center">
           FREQUENTLY ASKED QUESTIONS
-        <hr className="w-[50%] lg:w-[67%] border lg:border-[2px] border-purple-600 rounded-full my-4" />
+          <hr className="w-[50%] lg:w-[67%] border lg:border-[2px] border-purple-600 rounded-full my-4" />
         </h1>
       </div>
       <p className="text-center text-sm lg:text-lg font-medium text-gray-700 my-10 mb-14">

@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="lg:h-[60vh] ">
+    <div className="lg:h-[60vh]">
       <hr />
 
       <div className="md:flex justify-center sm:mx-9 md:mx-0 md:pt-9 md:[&>*]:ml-4 md:text-sm 2xl:text-lg text-gray-600">
@@ -25,7 +25,7 @@ export default function Footer() {
             social accounts and let you take part in industry conversations. You
             can use streams to monitor activity across all of your accounts.
           </p>
-          <div className=" flex  [&>*]:ml-3  [&>*]:cursor-pointer  mt-4 ">
+          <div className=" flex  [&>*]:ml-3 [&>*]:cursor-pointer  mt-4 ">
             <img src={fb} alt="icons" />
             <img src={x} alt="icons" />
             <img src={insta} alt="icons" />

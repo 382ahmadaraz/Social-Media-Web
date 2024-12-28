@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
-
     // border-2 border-black
 
     <div className=" ">
@@ -67,21 +66,22 @@ export default function Login() {
                   </Link>
                 </div>
                 <Link to={"/socialAccounts"}>
-                <div className="w-[100%] p-2 bg-gradient-to-b from-Purple to-Pink text-white text-center my-4 rounded-lg">
-                  <button title="Sign In">Sign In</button>
-                </div>
+                  <div className="w-[100%] p-2 bg-gradient-to-b from-Purple to-Pink text-white text-center my-4 rounded-lg">
+                    <button title="Sign In">Sign In</button>
+                  </div>
                 </Link>
                 <div className="flex items-center  w-[80%] m-auto">
-                  <hr className="w-[40%] border"/>
-                  <p className="mx-3">OR</p>  
-                  <hr className="w-[40%] border"/>
+                  <hr className="w-[40%] border" />
+                  <p className="mx-3">OR</p>
+                  <hr className="w-[40%] border" />
                 </div>
                 <div className="text-pink-500 flex items-center justify-center">
-                <p className="text-black mr-3">Not a Member yet? </p><Link to={"/signup"} className="font-semibold">Sign Up</Link>
-
+                  <p className="text-black mr-3">Not a Member yet? </p>
+                  <Link to={"/signup"} className="font-semibold">
+                    Sign Up
+                  </Link>
                 </div>
               </form>
-               
             </div>
           </div>
           <hr className="border-4 border-pink-600 absolute  w-[100%] z-[-1] rotate-12" />
