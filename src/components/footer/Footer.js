@@ -19,7 +19,7 @@ export default function Footer() {
 
       <div className="md:flex justify-center sm:mx-9 md:mx-0 md:pt-9 md:[&>*]:ml-4 md:text-sm 2xl:text-lg text-gray-600">
         <div className="lg:w-[35%] p-3">
-          <img src={logof} alt="logo" />
+          <Link to={"/"}><img src={logof} alt="logo" /></Link>
           <p className="lg:mt-4 lg:pr-8 text-gray-600 leading-loose">
             Social Medias are feeds that display the content from your connected
             social accounts and let you take part in industry conversations. You
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
         <div className="hidden md:block lg:w-[13%] md:w-[60%] ">
           <img src={quick} alt="icons" />
-            <ul className="[&>*]:my-5">
+            <ul className="[&>*]:my-5 [&>*]:cursor-pointer ">
               <li>Why Social Medias</li>
               <li>What We Do</li>
               <li>Pricing</li>
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
         <div className="hidden md:block lg:w-[13%] md:w-[50%] ">
           <img src={legal} alt="icons" />
-          <ul className="[&>*]:my-5">
+          <ul className="[&>*]:my-5 [&>*]:cursor-pointer ">
               <li>Terms of Service</li>
               <li>Privacy Policy</li>
               <li>Contact Us</li>

@@ -162,7 +162,7 @@ export default function Sidebar() {
             <NavLink
               to="/dashboard"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-600  "
               }
             >
               <div className="flex items-center gap-3">
@@ -177,7 +177,7 @@ export default function Sidebar() {
             <NavLink
               to="/Create-Post"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">
@@ -192,7 +192,7 @@ export default function Sidebar() {
             <NavLink
               to="/inspiration"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">
@@ -207,7 +207,7 @@ export default function Sidebar() {
             <NavLink
               to="/stream"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">
@@ -222,7 +222,7 @@ export default function Sidebar() {
             <NavLink
               to="/planner"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">
@@ -237,7 +237,7 @@ export default function Sidebar() {
             <NavLink
               to="/advertise"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">
@@ -252,7 +252,7 @@ export default function Sidebar() {
             <NavLink
               to="/analytics"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">
@@ -267,7 +267,7 @@ export default function Sidebar() {
             <NavLink
               to="/profile"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">
@@ -282,7 +282,7 @@ export default function Sidebar() {
             <NavLink
               to="/upgrade-plan/pricing"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">
@@ -297,7 +297,7 @@ export default function Sidebar() {
             <NavLink
               to="/login"
               className={({ isActive }) =>
-                isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
+                isActive ? "text-pink-500 font-semibold" : "text-gray-500  "
               }
             >
               <div className="flex items-center gap-3">

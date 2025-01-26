@@ -11,8 +11,8 @@ export default function FaqsMap() {
       {faqs.map((index) => {
         return (
           <div key={index.id} className="w-[100%] md:w-[90%] m-auto">
-            <div className="flex justify-between my-5 font-semibold">
-              <p className="2xl:text-2xl">{index.Q}</p>
+            <div className="flex justify-between my-5 font-semibold cursor-pointer hover:text-pink-700">
+              <p className="2xl:text-2xl ">{index.Q}</p>
               <img src={index.img} alt="plus-icon" className="h-[24px]" />
             </div>
             <hr className="border mb-11" />

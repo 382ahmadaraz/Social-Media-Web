@@ -26,7 +26,7 @@ export default function Account() {
                 return (
                   <div
                     key={index}
-                    className="border p-5 xl:p-7 w-[25%] sm:w-[30%] flex flex-col items-center"
+                    className="border p-5 xl:p-7 w-[25%] sm:w-[30%] flex flex-col items-center cursor-pointer hover:bg-pink-100"
                   >
                     <img
                       src={index.img}

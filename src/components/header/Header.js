@@ -25,7 +25,7 @@ export default function Header() {
           <div className="flex items-center my-2 border border-pink-500 p-2 w-fit m-auto rounded-md sm:m-0 sm:w-auto sm:p-0 sm:border-none ">
             <Button title="Start Today" />
             <Link to={"/login"}>
-              <div className="ml-4 lg:ml-7 flex items-center cursor-pointer text-pink-700">
+              <div className="ml-4 lg:ml-7 flex items-center cursor-pointer text-pink-700 ">
                 <img
                   src={h3}
                   alt="arrow"
@@ -40,9 +40,9 @@ export default function Header() {
           <img
             src={h2}
             alt="h1"
-            className="h-[80px] absolute left-0 top-[10%] sm:h-[100px] sm:left-[8%] md:h-[140px] md:top-[20%] md:left-[12%] lg:h-[120px] lg:top-[10%] lg:left-[-6%] z-10 "
+            className="animate-fadeIn h-[80px] absolute left-0 top-[10%] sm:h-[100px] sm:left-[8%] md:h-[140px] md:top-[20%] md:left-[12%] lg:h-[120px] lg:top-[10%] lg:left-[-6%] z-10 "
           />
-          <img src={h1} alt="h1" className=" -z-10  lg:h-[100%] lg:w-[100%]" />
+          <img src={h1} alt="h1" className=" -z-10  lg:h-[100%] lg:w-[100%] animate-fadeIn" />
         </div>
       </div>
     </div>

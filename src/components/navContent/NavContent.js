@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function NavContent() {
   return (
     <div>
-      <ul className=" flex lg:justify-evenly justify-center gap-1 flex-wrap border-2 border-black text-center w-[100%] xl:w-[82%] text-[14px]">
+      <ul className=" flex lg:justify-evenly justify-center gap-1 flex-wrap text-center w-[100%] xl:w-[82%] text-[14px]">
         {/* Schedule */}
         <li className="flex">
           <NavLink

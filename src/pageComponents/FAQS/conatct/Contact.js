@@ -12,7 +12,7 @@ export default function Contact() {
       </div>
       {/* form  */}
       <div className=" py-5 w-[70%] m-auto shadow-lg bg-slate-50 my-16 ">
-        <form className="border-2 border-black [&>*]:bg-50 [&>*]: [&>*]:my-5 [&>*]:mx-5 [&>*]:h-[50px] [&>*]:rounded-xl [&>*]:p-3  flex-wrap justify-evenly">
+        <form className="[&>*]:bg-50 [&>*]: [&>*]:my-5 [&>*]:mx-5 [&>*]:h-[50px] [&>*]:rounded-xl [&>*]:p-3  flex-wrap justify-evenly">
             <input type="text" name="name" placeholder="Your Full Name" className="w-[80%] md:w-[40%] xl:w-[45%]"/>
             <input type="email" name="name" placeholder="Your Email (Required)" className="w-[80%] md:w-[40%] xl:w-[45%]"/>
             <input type="text" name="name" placeholder="Your Phone" className="w-[80%] md:w-[40%] xl:w-[45%]"/>

@@ -14,18 +14,18 @@ export default function ServiceCards() {
 
       <hr className="my-6 md:mb-11 border-2 w-[20%] m-auto rounded-md border-pink-600" />
 
-      <div className="lg:flex lg:flex-wrap justify-center lg:gap-11 ">
+      <div className="lg:flex lg:flex-wrap justify-center lg:gap-5 ">
         {ServiceData.map((card) => (
           <div
             key={card.id}
-            className=" mb-4 p-3 border-[1px] border-gray-300 lg:w-[42%] lg:h-[43%] text-sm  rounded-2xl lg:p-8"
+            className=" mb-4 p-3 border-[1px] border-gray-300 lg:w-[42%] lg:h-[43%] text-sm  rounded-2xl lg:p-4"
           >
             <img
               src={card.url}
               alt={card.url}
               className="p-2 lg:p-4 rounded-xl bg-gradient-to-b from-Purple to-Pink lg:h-[70px]"
             />
-            <h1 className="text-xl my-2 md:text-2xl 2xl:text-3xl lg:my-5 font-semibold">
+            <h1 className="text-xl my-2 md:text-2xl 2xl:text-3xl lg:my-2 font-semibold">
               {card.title}
             </h1>
             <p className=" mb-2 lg:mb-5 sm:text-md  2xl:text-lg text-gray-600 text-[16px] leading-relaxed">

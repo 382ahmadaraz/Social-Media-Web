@@ -26,14 +26,14 @@ export default function HeroSection() {
           tool with features to help with planning, scheduling, and syndicating
           social posts.
         </p>
-        <div className=" flex items-center my-2 border border-pink-500 p-2 w-fit m-auto  rounded-md sm:m-0 sm:w-auto sm:p-0 sm:border-none ">
+        <div className=" flex items-center my-2 w-fit m-auto sm:m-0 sm:w-auto sm:p-0 sm:border-none ">
           <Button title="GET STARTED" />
           <Link to={"/login"}>
-            <div className="   ml-4 lg:ml-7 flex items-center sm:p-3 cursor-pointer text-pink-700">
+            <div className="ml-4 lg:ml-7 flex items-center sm:p-3 cursor-pointer text-pink-700">
               <img
                 src={Polygon}
                 alt="arrow"
-                className="border-2 border-pink-600 mr-1 sm:p-2 lg:p-2 lg:rounded-xl lg:mr-3"
+                className="border border-pink-600 mr-1 p-1 sm:p-2 lg:p-2 lg:rounded lg:mr-3"
               />
               <p className=" hidden sm:block sm:text-lg font-semibold text-md">
                 SEE HOW IT WORKS
@@ -43,8 +43,8 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="hidden lg:block w-[49%]">
-        <div className="header-image ml-5 p-4 h-full relative flex">
-          <img src={dot} alt="h1" className="absolute top-0 right-8" />
+        <div className="header-image ml-5 p-4 h-full relative flex animate-fadeIn">
+          <img src={dot} alt="h1" className="absolute top-0 right-8 " />
           <img src={dot} alt="h1" className="absolute bottom-0 left-0 z-[-1]" />
           <img
             src={h1}

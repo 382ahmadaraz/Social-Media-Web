@@ -40,8 +40,8 @@ export default function Manage() {
         {/* manage icons */}
         {/* 1 */}
         <div className="mt-3 lg:my-2 flex  ">
-          <div className="p-2 mt-3 h-[28%] hidden sm:block  lg:p-3 rounded-lg bg-gradient-to-b from-Purple to-Pink md:h-[60px] md:mt-2">
-            <img src={d1} alt="d1 " className=" h-[40px] w-[50px]" />
+          <div className="p-2 mt-3 h-[28%] hidden sm:block border-2 lg:p-3 rounded-lg bg-gradient-to-b from-Purple to-Pink md:h-[60px] md:mt-2">
+            <img src={d1} alt="d1 " className=" h-[40px] w-[40px]" />
           </div>
           <div className="p-2 md:px-4   lg:ml-3 lg:px-0">
             <p className=" text-lg font-semibold">Publish and Schedule</p>
@@ -54,7 +54,7 @@ export default function Manage() {
         {/* 2 */}
         <div className="mt-3  lg:my-2  flex">
           <div className="p-2 mt-3 h-[28%] hidden sm:block  lg:p-3  rounded-lg bg-gradient-to-b from-Purple to-Pink lg:h-[60px] lg:mt-2">
-            <img src={d2} alt="m3 " className="h-[40px] w-[60px] md:w-[50px]" />
+            <img src={d2} alt="m3 " className="h-[40px] w-[60px] md:w-[40px]" />
           </div>
           <div className="p-2 md:px-4  lg:ml-3 lg:px-0">
             <p className="text-lg font-semibold">Engage Customers</p>
@@ -66,7 +66,7 @@ export default function Manage() {
         {/* 3 */}
         <div className="mt-3  lg:mt-2 flex ">
           <div className="p-2 mt-3 h-[28%] hidden sm:block lg:p-3  rounded-lg bg-gradient-to-b from-Purple to-Pink lg:h-[60px] lg:mt-2">
-            <img src={d3} alt="m3 " className="h-[40px] w-[60px] md:w-[50px]" />
+            <img src={d3} alt="m3 " className="h-[40px] w-[60px] md:w-[40px]" />
           </div>
           <div className=" p-2 md:px-4 lg:ml-3 lg:text-lg lg:px-0 ">
             <p className="text-lg font-semibold">Monitor Activity</p>
@@ -78,7 +78,7 @@ export default function Manage() {
         {/* 4 */}
         <div className="mt-3  lg:mt-2 flex ">
           <div className="p-2 mt-3 h-[28%] hidden sm:block lg:p-3  rounded-lg bg-gradient-to-b from-Purple to-Pink lg:h-[60px] lg:mt-2">
-            <img src={d4} alt="m3 " className="h-[40px] w-[60px] md:w-[50px]" />
+            <img src={d4} alt="m3 " className="h-[40px] w-[60px] md:w-[40px]" />
           </div>
           <div className=" p-2 md:px-4 lg:ml-3 lg:text-lg lg:px-0 ">
             <p className="text-lg font-semibold">Advertise Content</p>
@@ -90,7 +90,7 @@ export default function Manage() {
         {/* 5 */}
         <div className="mt-3  lg:mt-2 flex ">
           <div className="p-2 mt-3 h-[28%] hidden sm:block lg:p-3  rounded-lg bg-gradient-to-b from-Purple to-Pink lg:h-[60px] lg:mt-2">
-            <img src={d5} alt="m3 " className="h-[40px] w-[60px] md:w-[50px]" />
+            <img src={d5} alt="m3 " className="h-[40px] w-[60px] md:w-[40px]" />
           </div>
           <div className=" p-2 md:px-4 lg:ml-3 lg:text-lg lg:px-0 ">
             <p className="text-lg font-semibold">Analyze Results</p>

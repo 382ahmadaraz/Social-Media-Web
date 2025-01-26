@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SubHeading from "../../components/subHeading/SubHeading";
 import Button2 from "../../components/button2/Button2";
 import Sidebar from "../../components/sidebar/Sidebar";
@@ -15,7 +16,7 @@ export default function Analytics() {
             descryption="Get all details about your social medias analytics. "
           />
           <div className="border shadow-xl mt-5 m-4 h-[80%] md:h-[75%] lg:h-[80%] rounded-xl p-9">
-            <div className="flex items-center justify-center h-[60%] ">
+            <div className="flex items-center justify-center h-[60%] cursor-pointer">
               <img src={analytic} alt="Advertise" />
             </div>
 
@@ -27,7 +28,7 @@ export default function Analytics() {
                 <br />
                 create your best campaigns.
               </p>
-              <Button2 title="Upgrade Now" />
+              <Link to={"/upgrade-plan/pricing"}><Button2 title="Upgrade Now" /></Link>
             </div>
           </div>
         </div>

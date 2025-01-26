@@ -11,29 +11,29 @@ import p7 from "../../assests/images/New folder/acc-manage.png";
 
 export default function NavPic() {
   return (
-    <div className=" w-[35%] lg::w-[25%] h-[100vh]">
+    <div className=" w-[35%] h-[100vh]">
       <div className="  h-[20%] w-[70%] sm:w-[50%] m-auto">
         <img src={profilePic} alt="profile" />
         <div className="relative left-11 sm:left-16 bottom-9 lg:bottom-11 lg:left-20">
           <img src={camera} alt="cameraa" />
         </div>
       </div>
-      <div className="text-center my-3">
+      <div className="text-center my-3 w-[90%]">
         <p className="font-semibold ">Ahmad raza</p>
         <p className="text-pink-600"> Free Plan</p>
       </div>
 
       <div className=" h-[70%] ">
-        <ul className="  [&>*]:w-[85%] [&>*]:p-2 md:text-[15px] text-[12px]">
+        <ul className=" [&>*]:p-2 [&>*]:pl-3 md:text-[15px] text-[12px]  [&>*]:text-center">
           {/* Account Setting */}
-          <li className="   ">
+          <li className=" text-center  ">
             <NavLink
               to="/profile/accountSetting"
               className={({ isActive }) =>
                 isActive ? "text-pink-500 font-semibold" : "text-gray-400  "
               }
-            >
-              <div className="flex items-center gap-3">
+            > 
+              <div className="flex items-center gap-3 ">
                 <img
                   className="h-[16px] w-[16px] hidden md:block"
                   src={p1}

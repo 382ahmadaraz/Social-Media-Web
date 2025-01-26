@@ -2,7 +2,7 @@ import Button2 from "../button2/Button2";
 
 export default function ProfileData() {
   return (
-    <div className="w-[98%] p-4">
+    <div className="w-[98%] ">
       <form className="flex flex-wrap p-3 [&>*]:bg-gray-50 [&>*]:p-3 gap-4">
         <input
           type="text"
@@ -72,10 +72,10 @@ export default function ProfileData() {
           className="p-3 w-[45%]"
         />
 
+      </form>
         <div className="flex justify-end w-[90%]">
           <Button2 title="Edit Details" />
         </div>
-      </form>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export default function Calendar() {
             title="Planner"
             descryption="Get all details about your planned posts."
           />
-          <div className="h-[126vh] m-2 xl:m-7 rounded-xl shadow-xl ">
+          <div className="h-fit m-2 xl:m-7 rounded-xl shadow-xl ">
             <Plan />
             <Clndr />
           </div>

@@ -16,7 +16,7 @@ export default function CreatePost() {
             </div>            
           </div>
         </div>
-          <p className="text-gray-400 w-[70%] text-center mt-8">Social Medias Developed by Ahmad Raza &copy; 2022</p>
+          <p className="text-gray-400 w-[70%] text-center mt-8 mb-4">Social Medias Developed by Ahmad Raza &copy; 2022</p>
     </div>
   )
 }

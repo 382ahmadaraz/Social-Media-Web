@@ -19,7 +19,7 @@ export default function NotSure() {
         <img
           src={group}
           alt="patern"
-          className="lg:h-[85%] lg:w-[80%] lg:absolute top-0 right-0"
+          className="lg:h-[83%] lg:w-[80%] lg:absolute top-0 right-0 animate-fadeIn"
         />
       </div>
 

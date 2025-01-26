@@ -9,7 +9,7 @@ import m5 from "../../assests/images/m5.png";
 export default function Manage() {
   return (
     <div className=" my-20 lg:mt-24 px-4 lg:flex justify-center lg:items-center relative">
-      <div className="manage-image hidden lg:block lg:w-[40%] lg:h-[80%]    ">
+      <div className="manage-image hidden lg:block lg:w-[40%] lg:h-[80%]  animate-fadeIn  ">
         <img
           src={m1}
           alt="lower-Image"
